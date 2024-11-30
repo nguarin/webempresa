@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa especializada en diseño y desarrollo de sitios web, marketing digital y publicidad.">
+    <meta name="keywords" content="diseño web, desarrollo web, marketing digital, publicidad">
+    <title>Inicio - Servicios de Diseño y Marketing</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<script>
+    function toggleMenu() {
+        const navList = document.querySelector('.nav-list');
+        navList.classList.toggle('active');
+    }
+    </script>
+<body>
+    <!-- Cabecera con el menú de navegación -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MiEmpresa</h1>
+            </div>
+            <nav> 
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de introducción -->
+    <section id="inicio" class="hero">
+        <img src="images/imagen-principal.jpg" alt="Imagen de fondo de hero" class="hero-bg">
+        <div class="hero-content">
+            <h2>Diseño y Desarrollo de Sitios Web</h2>
+            <p>Ofrecemos soluciones creativas para impulsar tu negocio en línea.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Nosotros -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>Somos una empresa dedicada a proporcionar servicios de alta calidad en diseño web, desarrollo de aplicaciones, marketing digital y publicidad. Con un equipo de profesionales experimentados, nos enfocamos en ofrecer soluciones que se adapten a las necesidades de cada cliente.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="services">
+                <div class="service-item">
+                    <img src="images/diseno-web.jpg" alt="Diseño Web">
+                    <h3>Diseño Web</h3>
+                    <p>Diseños atractivos y funcionales que captan la atención de tus usuarios.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/desarrollo-web.jpg" alt="Desarrollo Web">
+                    <h3>Desarrollo Web</h3>
+                    <p>Desarrollamos sitios web personalizados, optimizados y adaptativos.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/marketing-digital.jpg" alt="Marketing Digital">
+                    <h3>Marketing Digital</h3>
+                    <p>Campañas estratégicas para aumentar la visibilidad y el tráfico a tu sitio.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/publicidad.jpg" alt="Publicidad">
+                    <h3>Publicidad</h3>
+                    <p>Anuncios creativos y efectivos para atraer más clientes a tu negocio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section contact">
+        <div class="container">
+            <h2>Contáctenos</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MiEmpresa. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
